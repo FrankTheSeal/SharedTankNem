@@ -1,0 +1,24 @@
+{
+  "v": "1.9",
+  "name": "SU-1941 85mm F-30",
+  "description": "",
+  "caliber": 85,
+  "breechLength": 385,
+  "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 25,
+          "t1": 18,
+          "l": 4250
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 2000,
+  "PSI": 35000,
+  "shellID": 43
+}

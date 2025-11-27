@@ -1,0 +1,34 @@
+{
+  "v": "1.9",
+  "name": "SU-1940 76.2mm F-34",
+  "description": "",
+  "caliber": 76,
+  "breechLength": 385,
+  "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 20,
+          "t1": 10,
+          "l": 3139
+        }
+      ]
+    },
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 20,
+          "t1": 20,
+          "l": 100
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 1800,
+  "PSI": 45000,
+  "shellID": 43
+}
