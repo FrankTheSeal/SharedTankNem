@@ -4,7 +4,7 @@
   "description": "",
   "caliber": 122,
   "breechLength": 785,
-  "muzzle": "5ad7ad81-4de0-4861-b1c2-5dddd2d98783",
+  "muzzle": "d42ff655-1ccf-41f9-b39e-cbe567e48450",
   "segments": [
     {
       "v": "0.0",
@@ -33,7 +33,7 @@
     }
   ],
   "muzzleMass": 0.0,
-  "K": 1800,
-  "PSI": 45000,
-  "shellID": 43
+  "K": 1900,
+  "PSI": 40000,
+  "shellID": 32
 }

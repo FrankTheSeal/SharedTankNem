@@ -1,0 +1,29 @@
+{
+  "v": "1.9",
+  "name": "JP-1936 37mm Type 100",
+  "description": "",
+  "caliber": 37,
+  "breechLength": 254,
+  "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 30,
+          "t1": 5,
+          "l": 1750
+        },
+        {
+          "t0": 8,
+          "t1": 8,
+          "l": 15
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 1900,
+  "PSI": 40000,
+  "shellID": 32
+}

@@ -1,0 +1,29 @@
+{
+  "v": "1.9",
+  "name": "JP-1937 57mm Type 97",
+  "description": "",
+  "caliber": 57,
+  "breechLength": 76,
+  "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 30,
+          "t1": 10,
+          "l": 1000
+        },
+        {
+          "t0": 10,
+          "t1": 15,
+          "l": 57
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 2200,
+  "PSI": 30000,
+  "shellID": 32
+}
