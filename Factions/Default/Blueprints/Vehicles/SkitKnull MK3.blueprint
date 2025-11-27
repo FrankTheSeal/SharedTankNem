@@ -1,0 +1,4474 @@
+{
+  "v": "2.0",
+  "header": {
+    "v": "0.1",
+    "name": "SkitKnull MK3",
+    "gameVersion": "0.2.39.5",
+    "mass": 19992,
+    "creationDate": "1941.12.31",
+    "class": "",
+    "desc": ""
+  },
+  "blueprints": [
+    {
+      "id": 1,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.0",
+        "name": "Primary",
+        "description": "",
+        "colourMapUrl": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Paint/sweden-flag-770219187.jpg",
+        "scale": 2.0,
+        "roughness": 0.3,
+        "metallic": 0.5,
+        "r": 0.52,
+        "g": 0.52,
+        "b": 0.52,
+        "saturation": 1.0,
+        "condition": 0.58,
+        "grime": 0.429999977
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.0",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 3,
+      "type": "chassis",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "length": 2500,
+        "width": 1560,
+        "groundClearance": 236
+      }
+    },
+    {
+      "id": 4,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "armourVolume": 0.8967941,
+        "bodyMeshVuid": 0,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 5,
+      "type": "verticalSplitHull",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "generationData": {
+          "v": "0.1",
+          "dataVersion": "0.0",
+          "shape": [
+            2.5,
+            1.56,
+            0.6461738,
+            0.3,
+            0.3,
+            0.9,
+            0.5,
+            -0.09201822,
+            -0.5755523,
+            46.279007,
+            68.13504,
+            38.6133347,
+            0.0,
+            45.0,
+            45.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0
+          ],
+          "armour": [
+            90,
+            60,
+            20,
+            10,
+            90,
+            20,
+            90,
+            50,
+            20,
+            20,
+            10,
+            10
+          ],
+          "shapeFlags": 28
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "engine",
+      "blueprint": {
+        "v": "0.4",
+        "name": null,
+        "description": null,
+        "cylinders": 24,
+        "idleRPM": 1000,
+        "cylinderDisplacement": 0.75,
+        "tech": 0.4,
+        "targetMinRPM": 1400,
+        "targetMaxRPM": 3200,
+        "torqueCoeff": 0.75,
+        "revLimit": -1
+      }
+    },
+    {
+      "id": 7,
+      "type": "transmission",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "autoInputTorque": true,
+        "maxInputTorque": 1249.41406,
+        "autoResistanceTorque": true,
+        "maxResistanceTorque": 2498.82813,
+        "d": [
+          12.0,
+          5.0,
+          1.5
+        ],
+        "r": [
+          12.0,
+          6.0
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
+        "scale": 1.0,
+        "x": 0,
+        "y": 450,
+        "z": -148,
+        "rearFacing": true
+      }
+    },
+    {
+      "id": 9,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
+        "perAxle": 1,
+        "spacingOnAxle": 0.01,
+        "xOffset": -0.008,
+        "diameter": 0.75,
+        "width": 0.5720001
+      }
+    },
+    {
+      "id": 10,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
+        "scale": 1.0,
+        "x": 0,
+        "y": 514,
+        "z": 66,
+        "rearFacing": false
+      }
+    },
+    {
+      "id": 11,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
+        "perAxle": 2,
+        "spacingOnAxle": 0.05,
+        "xOffset": 0.05,
+        "diameter": 0.6,
+        "width": 0.14
+      }
+    },
+    {
+      "id": 12,
+      "type": "trackWheelArray",
+      "blueprint": {
+        "v": "0.2",
+        "name": null,
+        "description": null,
+        "spacingMode": 0,
+        "spacing": 1300,
+        "length": 2500,
+        "count": 2,
+        "interleaveOverlapFraction": 0.0,
+        "groupSpacing": 50,
+        "perGroup": 1,
+        "groupingOffset": 0,
+        "zOrigin": 0,
+        "yOrigin": 0,
+        "xOrigin": -1250,
+        "zOffset": 0,
+        "yOffset": 680,
+        "xOffset": 350,
+        "syncLengthEnabled": true,
+        "angle": 0.0
+      }
+    },
+    {
+      "id": 13,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
+        "scale": 0.5,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rearFacing": false
+      }
+    },
+    {
+      "id": 14,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
+        "perAxle": 2,
+        "spacingOnAxle": 0.05,
+        "xOffset": 0.05,
+        "diameter": 0.2,
+        "width": 0.14
+      }
+    },
+    {
+      "id": 15,
+      "type": "trackWheelArray",
+      "blueprint": {
+        "v": "0.2",
+        "name": null,
+        "description": null,
+        "spacingMode": 0,
+        "spacing": 135,
+        "length": 2500,
+        "count": 6,
+        "interleaveOverlapFraction": 0.5,
+        "groupSpacing": 250,
+        "perGroup": 2,
+        "groupingOffset": 0,
+        "zOrigin": 0,
+        "yOrigin": 0,
+        "xOrigin": -1250,
+        "zOffset": 0,
+        "yOffset": 25,
+        "xOffset": -220,
+        "syncLengthEnabled": true,
+        "angle": 0.0
+      }
+    },
+    {
+      "id": 16,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "scale": 0.6,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rearFacing": true
+      }
+    },
+    {
+      "id": 17,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
+        "perAxle": 2,
+        "spacingOnAxle": 0.05,
+        "xOffset": 0.05,
+        "diameter": 0.299999982,
+        "width": 0.14
+      }
+    },
+    {
+      "id": 18,
+      "type": "track",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "separation": 1460,
+        "length": 2500,
+        "rrCoeff": 1.5,
+        "brake": 159799,
+        "autoBrake": true,
+        "rollersEnabled": true,
+        "matchChassis": true,
+        "frontalTransmission": false
+      }
+    },
+    {
+      "id": 19,
+      "type": "trackBelt",
+      "blueprint": {
+        "v": "1.1",
+        "name": null,
+        "description": null,
+        "segmentID": "222d83dc-ff5f-49ec-8b97-ce7ad0b05826",
+        "x": 520,
+        "y": 111,
+        "z": 300,
+        "pitch": 170,
+        "tension": 11000
+      }
+    },
+    {
+      "id": 34,
+      "type": "suspension",
+      "blueprint": {
+        "v": "0.5",
+        "name": null,
+        "description": null,
+        "targetAngle": -5.0,
+        "upTravelLimit": 1000.0,
+        "damper": 200.0,
+        "armLength": 500
+      }
+    },
+    {
+      "id": 35,
+      "type": "torsionBar",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "torsionBarLength": 1500,
+        "torsionBarDiameter": 60
+      }
+    },
+    {
+      "id": 40,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          7
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0241608024,
+          0.238633782,
+          0.480341345
+        ],
+        "bodyPosition": [
+          -0.0906973,
+          0.471081078,
+          0.112275623
+        ],
+        "leftFootPosition": [
+          -0.08505662,
+          0.223442316,
+          0.5503296
+        ],
+        "rightFootPosition": [
+          0.08505662,
+          0.223442316,
+          0.5503296
+        ],
+        "leftHandPosition": [
+          -0.167252675,
+          0.5793919,
+          0.513188541
+        ],
+        "rightHandPosition": [
+          0.2817154,
+          0.491402715,
+          0.3803311
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          0.0116483718,
+          0.303151339,
+          0.391724557
+        ],
+        "rightLegPolePosition": [
+          -0.0116483718,
+          0.303151339,
+          0.391724557
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.07902173,
+          0.1451428
+        ],
+        "rightToesPosition": [
+          0.0,
+          0.07902173,
+          0.1451428
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "type": "turretRing",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "ringHeight": 25,
+        "ringDiameter": 1235,
+        "ringThickness": 10,
+        "motorVuid": 271
+      }
+    },
+    {
+      "id": 36,
+      "type": "turret",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "maxRot": 180,
+        "minRot": -180
+      }
+    },
+    {
+      "id": 37,
+      "type": "motor",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "torque": 100.0,
+        "ratio": 30.0,
+        "type": 1,
+        "resist": 0.75
+      }
+    },
+    {
+      "id": 38,
+      "type": "turretBasket",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "segments": [
+          {
+            "diameter": 1235,
+            "depth": 500
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.226371974,
+        "bodyMeshVuid": 1,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 41,
+      "type": "threeSplitTurret",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "generationData": {
+          "v": "0.1",
+          "dataVersion": "0.0",
+          "shape": [
+            0.36,
+            1.0,
+            0.5970637,
+            1.8,
+            0.6,
+            20.0,
+            0.05,
+            25.0,
+            0.0,
+            22.9221134,
+            24.14887,
+            56.6003
+          ],
+          "armour": [
+            100,
+            40,
+            20,
+            20,
+            20,
+            10,
+            10,
+            10,
+            20
+          ],
+          "shapeFlags": 2
+        }
+      }
+    },
+    {
+      "id": 43,
+      "type": "layingDrive",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "elevation": {
+          "v": "0.4",
+          "flags": 3,
+          "torqueMultiplier": 1.0,
+          "ratio": 50.0,
+          "max": 20.0,
+          "min": -10.0
+        },
+        "azimuth": {
+          "v": "0.4",
+          "flags": 3,
+          "torqueMultiplier": 1.0,
+          "ratio": 50.0,
+          "max": 0.0,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "id": 44,
+      "type": "cannonInstance",
+      "blueprint": {
+        "v": "0.2",
+        "name": null,
+        "description": null,
+        "flags": 0,
+        "fireGroup": 1,
+        "fireDelayLoadFraction": 0,
+        "sightVuid": 307,
+        "linkedCannonVuid": -1,
+        "barrelVuids": [
+          290,
+          292
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "type": "cannon",
+      "blueprint": {
+        "v": "1.9",
+        "name": "LeftGun",
+        "description": null,
+        "caliber": 60,
+        "breechLength": 100,
+        "muzzle": "7516da67-d1bf-422f-92d8-761a21a1c632",
+        "segments": [
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 37,
+                "t1": 25,
+                "l": 375
+              }
+            ]
+          },
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 18,
+                "t1": 18,
+                "l": 750
+              }
+            ]
+          }
+        ],
+        "muzzleMass": 0.0,
+        "K": 2000,
+        "PSI": 35000,
+        "shellID": 46
+      }
+    },
+    {
+      "id": 46,
+      "type": "shellSlot",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "diameter": 60,
+        "propellantLength": 100,
+        "generatedProjectiles": [
+          {
+            "projectileTypeGuid": "cc382844-34d3-4eb3-b1dd-8dd648dd26ff",
+            "functions": [
+              {
+                "id": "AP",
+                "definition": {
+                  "penetratorConstant": 2000
+                }
+              },
+              {
+                "id": "Propellant",
+                "definition": {
+                  "length": 100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "type": "ammoRack",
+      "blueprint": {
+        "v": "1.2",
+        "name": null,
+        "description": null,
+        "diameter": 60,
+        "length": 280,
+        "x": 1073,
+        "y": 288,
+        "z": 341,
+        "shellTypeGuid": "cc382844-34d3-4eb3-b1dd-8dd648dd26ff",
+        "shellID": 46
+      }
+    },
+    {
+      "id": 48,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          271
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          -0.2038394,
+          0.87085855,
+          0.269093245
+        ],
+        "bodyPosition": [
+          -0.004217092,
+          0.4380523,
+          -0.08640204
+        ],
+        "leftFootPosition": [
+          -0.171489716,
+          0.108338006,
+          0.303542048
+        ],
+        "rightFootPosition": [
+          -0.0100502707,
+          0.104254037,
+          0.3434681
+        ],
+        "leftHandPosition": [
+          -0.146601826,
+          0.5703018,
+          0.3824047
+        ],
+        "rightHandPosition": [
+          -0.0220781714,
+          0.576416731,
+          0.45014745
+        ],
+        "leftArmPolePosition": [
+          -0.0546906441,
+          0.0298271477,
+          -0.141009
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          -0.00212927163,
+          0.318852276,
+          0.402131319
+        ],
+        "leftToesPosition": [
+          0.04554405,
+          0.04986395,
+          0.119690627
+        ],
+        "rightToesPosition": [
+          -0.07668275,
+          0.0610680431,
+          0.03662765
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          286
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          -0.261074,
+          0.59728384,
+          0.721185
+        ],
+        "bodyPosition": [
+          0.048105713,
+          0.4196508,
+          0.15866363
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.1,
+          0.25
+        ],
+        "rightFootPosition": [
+          0.0251278281,
+          0.1,
+          0.273781776
+        ],
+        "leftHandPosition": [
+          -0.234919265,
+          0.563936651,
+          0.396474719
+        ],
+        "rightHandPosition": [
+          0.202661827,
+          0.9366447,
+          0.459071845
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          -0.148609713,
+          -0.005536735,
+          0.17164439
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          331
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          -0.3007589,
+          0.474364251,
+          0.41241318
+        ],
+        "bodyPosition": [
+          0.0,
+          0.4,
+          -0.1
+        ],
+        "leftFootPosition": [
+          -0.304916531,
+          0.1921469,
+          0.210157409
+        ],
+        "rightFootPosition": [
+          -0.1347877,
+          0.194846168,
+          0.220532984
+        ],
+        "leftHandPosition": [
+          -0.234919265,
+          0.563936651,
+          0.396474719
+        ],
+        "rightHandPosition": [
+          0.234919265,
+          0.563936651,
+          0.396474719
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "type": "layingDrive",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "elevation": {
+          "v": "0.4",
+          "flags": 3,
+          "torqueMultiplier": 1.0,
+          "ratio": 50.0,
+          "max": 20.0,
+          "min": -10.0
+        },
+        "azimuth": {
+          "v": "0.4",
+          "flags": 3,
+          "torqueMultiplier": 1.0,
+          "ratio": 50.0,
+          "max": 0.0,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "id": 59,
+      "type": "cannonInstance",
+      "blueprint": {
+        "v": "0.2",
+        "name": null,
+        "description": null,
+        "flags": 0,
+        "fireGroup": 1,
+        "fireDelayLoadFraction": 0,
+        "sightVuid": 307,
+        "linkedCannonVuid": -1,
+        "barrelVuids": [
+          335,
+          337
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          287
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          -0.310235173,
+          0.3407455,
+          -0.114463426
+        ],
+        "bodyPosition": [
+          -0.180211008,
+          0.470350027,
+          0.0643552244
+        ],
+        "leftFootPosition": [
+          -0.197883591,
+          0.2780395,
+          0.7116948
+        ],
+        "rightFootPosition": [
+          -0.293115735,
+          0.251206875,
+          0.5922024
+        ],
+        "leftHandPosition": [
+          -0.234919265,
+          0.563936651,
+          0.396474719
+        ],
+        "rightHandPosition": [
+          -0.23382996,
+          0.5837681,
+          0.397054136
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.253400058,
+          0.0239164829,
+          0.0422691032
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          -0.261406124,
+          0.277260631,
+          0.338094741
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          332
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          -0.226350531,
+          0.723889947,
+          -0.8169369
+        ],
+        "bodyPosition": [
+          0.0,
+          0.4,
+          -0.1
+        ],
+        "leftFootPosition": [
+          -0.06888781,
+          0.718537331,
+          -0.140078455
+        ],
+        "rightFootPosition": [
+          -0.00559506752,
+          0.5773143,
+          0.0711021349
+        ],
+        "leftHandPosition": [
+          -0.272080719,
+          0.54122,
+          -0.03402123
+        ],
+        "rightHandPosition": [
+          0.1974234,
+          0.535508633,
+          -0.03134474
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          0.0,
+          0.00253821164,
+          0.145142823
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          315
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.505142748,
+          0.285011828,
+          0.196792334
+        ],
+        "bodyPosition": [
+          -0.44325006,
+          0.474992454,
+          0.469431669
+        ],
+        "leftFootPosition": [
+          -0.08351745,
+          0.437660336,
+          0.5483555
+        ],
+        "rightFootPosition": [
+          0.7894045,
+          0.5102303,
+          0.613839269
+        ],
+        "leftHandPosition": [
+          -0.1835241,
+          0.5023394,
+          0.6880287
+        ],
+        "rightHandPosition": [
+          0.212658286,
+          0.688224554,
+          0.63572675
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.07565069,
+          0.2131815,
+          0.102140009
+        ],
+        "rightToesPosition": [
+          -0.137119949,
+          0.112244904,
+          0.0519687533
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          278
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          -1.528662,
+          0.03804207,
+          -0.148035645
+        ],
+        "bodyPosition": [
+          0.1000673,
+          0.862390757,
+          0.255066037
+        ],
+        "leftFootPosition": [
+          0.120920792,
+          0.102595523,
+          0.35326913
+        ],
+        "rightFootPosition": [
+          0.224977851,
+          0.106957465,
+          0.325071841
+        ],
+        "leftHandPosition": [
+          0.265226781,
+          0.6727635,
+          0.45157066
+        ],
+        "rightHandPosition": [
+          0.0828399956,
+          0.729895532,
+          0.129570574
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.01326539,
+          0.10382276,
+          0.05077496
+        ],
+        "rightToesPosition": [
+          0.0229453,
+          0.14081043,
+          0.104314506
+        ]
+      }
+    },
+    {
+      "id": 151,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 371,
+        "y": 190,
+        "z": 300
+      }
+    },
+    {
+      "id": 155,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 156,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/Screenshot_20251022_080017_Instagram.jpg"
+      }
+    },
+    {
+      "id": 157,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 158,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/image0123.jpg"
+      }
+    },
+    {
+      "id": 159,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 160,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/367image0.jpg"
+      }
+    },
+    {
+      "id": 161,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 162,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/35y6736image0.jpg"
+      }
+    },
+    {
+      "id": 165,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 166,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/2135image0.jpg"
+      }
+    },
+    {
+      "id": 167,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 168,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/123image0.jpg"
+      }
+    },
+    {
+      "id": 169,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 170,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/image0.jpg"
+      }
+    },
+    {
+      "id": 171,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 172,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/Tumblr_l_290415845190255.jpg"
+      }
+    },
+    {
+      "id": 173,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 500,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 174,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "imageURL": "file:///C:/Users/adamh/Documents/My%20Games/Sprocket/Decals/carb.jpg"
+      }
+    },
+    {
+      "id": 177,
+      "type": "spareBeltSegmentArray",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "count": 5
+      }
+    },
+    {
+      "id": 178,
+      "type": "spareBeltSegmentArray",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "count": 20
+      }
+    },
+    {
+      "id": 182,
+      "type": "spareBeltSegmentArray",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "count": 20
+      }
+    },
+    {
+      "id": 183,
+      "type": "spareBeltSegmentArray",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "count": 5
+      }
+    },
+    {
+      "id": 184,
+      "type": "spareBeltSegmentArray",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "count": 5
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 340,
+        "y": 195,
+        "z": 288
+      }
+    }
+  ],
+  "objects": [
+    {
+      "guid": "7f8a9d20-eb45-482e-b149-014c964c4e2c",
+      "vuid": 0,
+      "pvuid": -1,
+      "flags": 2,
+      "plateStructure": 1,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "structureBlueprintVuid": 4
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 260,
+      "pvuid": 0,
+      "flags": 3,
+      "crewSeat": 261,
+      "posture": 262,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.5885129,
+          0.0100097656,
+          -0.04200554
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 40,
+      "postureBlueprintVuid": 42
+    },
+    {
+      "guid": "6192f19f-4029-4686-9b92-57261096a362",
+      "vuid": 252,
+      "pvuid": 0,
+      "flags": 2,
+      "powertrain": 253,
+      "driveshaftBuilder": 254,
+      "powertrainLayout": 255,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "powertrainBlueprint": {
+        "v": "0.1",
+        "controlVuid": 7,
+        "layout": {
+          "majorVersion": 0,
+          "minorVersion": 0,
+          "modules": [
+            {
+              "id": 0,
+              "flags": 0,
+              "type": 1,
+              "behaviourID": 11,
+              "mirrorID": -1
+            },
+            {
+              "id": 1,
+              "flags": 0,
+              "type": 4,
+              "behaviourID": -1,
+              "mirrorID": -1
+            },
+            {
+              "id": 2,
+              "flags": 2,
+              "type": 2,
+              "behaviourID": 258,
+              "mirrorID": 3
+            },
+            {
+              "id": 3,
+              "flags": 4,
+              "type": 2,
+              "behaviourID": 264,
+              "mirrorID": 2
+            },
+            {
+              "id": 6,
+              "flags": 0,
+              "type": 4,
+              "behaviourID": -1,
+              "mirrorID": 7
+            },
+            {
+              "id": 7,
+              "flags": 0,
+              "type": 4,
+              "behaviourID": -1,
+              "mirrorID": 6
+            },
+            {
+              "id": 4,
+              "flags": 10,
+              "type": 8,
+              "behaviourID": 18,
+              "mirrorID": 5
+            },
+            {
+              "id": 5,
+              "flags": 12,
+              "type": 8,
+              "behaviourID": 40,
+              "mirrorID": 4
+            }
+          ],
+          "ports": [
+            {
+              "id": 8,
+              "flags": 0,
+              "moduleID": 0
+            },
+            {
+              "id": 9,
+              "flags": 3,
+              "moduleID": 1
+            },
+            {
+              "id": 11,
+              "flags": 3,
+              "moduleID": 1
+            },
+            {
+              "id": 12,
+              "flags": 0,
+              "moduleID": 2
+            },
+            {
+              "id": 14,
+              "flags": 0,
+              "moduleID": 2
+            },
+            {
+              "id": 15,
+              "flags": 3,
+              "moduleID": 6
+            },
+            {
+              "id": 17,
+              "flags": 0,
+              "moduleID": 6
+            },
+            {
+              "id": 18,
+              "flags": 0,
+              "moduleID": 4
+            },
+            {
+              "id": 20,
+              "flags": 3,
+              "moduleID": 1
+            },
+            {
+              "id": 21,
+              "flags": 0,
+              "moduleID": 3
+            },
+            {
+              "id": 23,
+              "flags": 0,
+              "moduleID": 3
+            },
+            {
+              "id": 24,
+              "flags": 3,
+              "moduleID": 7
+            },
+            {
+              "id": 26,
+              "flags": 0,
+              "moduleID": 7
+            },
+            {
+              "id": 27,
+              "flags": 0,
+              "moduleID": 5
+            }
+          ],
+          "connections": [
+            {
+              "id": 10,
+              "flags": 0,
+              "providerID": 8,
+              "receiverID": 9
+            },
+            {
+              "id": 13,
+              "flags": 0,
+              "providerID": 11,
+              "receiverID": 12
+            },
+            {
+              "id": 16,
+              "flags": 0,
+              "providerID": 14,
+              "receiverID": 15
+            },
+            {
+              "id": 19,
+              "flags": 1,
+              "providerID": 17,
+              "receiverID": 18
+            },
+            {
+              "id": 22,
+              "flags": 0,
+              "providerID": 20,
+              "receiverID": 21
+            },
+            {
+              "id": 25,
+              "flags": 0,
+              "providerID": 23,
+              "receiverID": 24
+            },
+            {
+              "id": 28,
+              "flags": 1,
+              "providerID": 26,
+              "receiverID": 27
+            }
+          ],
+          "modulePositions": [
+            0.0522893853,
+            0.102507114,
+            -0.0410561524,
+            0.05082158,
+            0.232619613,
+            -0.934442,
+            -0.492488831,
+            0.104505539,
+            -0.9323795,
+            0.545733,
+            0.106933974,
+            -0.9323795,
+            -1.06627989,
+            0.371424735,
+            -0.9323794,
+            1.145015,
+            0.378047258,
+            -0.9323794,
+            -0.73,
+            0.0,
+            0.0,
+            0.73,
+            0.0,
+            0.0
+          ],
+          "moduleRotations": [
+            0.0,
+            180.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            270.0,
+            0.0,
+            0.0,
+            90.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "portOffsets": [
+            0.0,
+            0.132250518,
+            0.624122858,
+            0.000250212848,
+            0.0003644824,
+            0.045902133,
+            -0.045872543,
+            -0.00157386065,
+            0.000660181046,
+            0.0,
+            0.1231972,
+            -0.4,
+            0.0,
+            0.263672054,
+            0.5025,
+            0.0587924719,
+            -0.00267785788,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            9.685755E-08,
+            0.45,
+            -1.39799976,
+            0.0458776876,
+            -0.00120283663,
+            0.0009969473,
+            0.0,
+            0.1231972,
+            -0.4,
+            0.0,
+            0.263672054,
+            0.5025,
+            -0.0586801767,
+            -0.004511714,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -9.685755E-08,
+            0.45,
+            -1.39799976
+          ],
+          "portDirections": [
+            0.0,
+            0.0,
+            1.0,
+            0.00545073627,
+            0.007939894,
+            0.9999536,
+            -0.9993086,
+            -0.0342855528,
+            0.0143818809,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.998964369,
+            -0.0455004834,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.9994207,
+            -0.0262033045,
+            0.0217181947,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            1.0,
+            -0.997057259,
+            -0.0766601041,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            -1.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "twinTransmissionBlueprint": {
+        "v": "0.0",
+        "engineID": 0,
+        "leftTransmissionID": 2,
+        "rightTransmissionID": 3,
+        "leftPropulsionID": 4,
+        "rightPropulsionID": 5
+      }
+    },
+    {
+      "guid": "fbbe2fd4-9092-46c6-8657-8d5fbcd8186d",
+      "vuid": 6,
+      "pvuid": 252,
+      "flags": 3,
+      "powertrainSteering": 7,
+      "model": 8,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.5,
+          0.487692475,
+          0.5997734
+        ],
+        "rot": [
+          315.0,
+          180.0,
+          180.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
+      "vuid": 9,
+      "pvuid": 252,
+      "flags": 2,
+      "engine": 10,
+      "powertrainNode": 11,
+      "fuelReserve": 12,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0522893853,
+          0.102507114,
+          -0.0410561524
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "engineBlueprintVuid": 6
+    },
+    {
+      "guid": "7a508b04-0d69-40d3-9f4c-92c02346b9de",
+      "vuid": 256,
+      "pvuid": 252,
+      "flags": 3,
+      "transmission": 257,
+      "powertrainNode": 258,
+      "transform": {
+        "mirrorVuid": 259,
+        "pos": [
+          -0.492488831,
+          0.104505539,
+          -0.9323795
+        ],
+        "rot": [
+          0.0,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "transmissionBlueprintVuid": 7
+    },
+    {
+      "guid": "7a508b04-0d69-40d3-9f4c-92c02346b9de",
+      "vuid": 259,
+      "pvuid": 252,
+      "flags": 2,
+      "transmission": 263,
+      "powertrainNode": 264,
+      "transform": {
+        "mirrorVuid": 256,
+        "pos": [
+          0.545733,
+          0.106933974,
+          -0.9323795
+        ],
+        "rot": [
+          0.0,
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "transmissionBlueprintVuid": 7
+    },
+    {
+      "guid": "ef551781-05bc-4aff-902a-372bdf0b3621",
+      "vuid": 16,
+      "pvuid": 252,
+      "flags": 3,
+      "track": 17,
+      "powertrainNode": 18,
+      "belt": 19,
+      "transform": {
+        "mirrorVuid": 38,
+        "pos": [
+          -0.73,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "trackBlueprintVuid": 18,
+      "trackInstanceInfo": {
+        "v": "0.2",
+        "leftSide": false,
+        "sprocketMountVuid": 21,
+        "idlerMountVuid": 28,
+        "rollerArrayVuid": 35,
+        "roadwheelArrayVuid": 37
+      },
+      "beltBlueprintVuid": 19
+    },
+    {
+      "guid": "a57b9148-c567-46a9-a0c4-83c1d501e292",
+      "vuid": 20,
+      "pvuid": 16,
+      "flags": 3,
+      "wheelMount": 21,
+      "mountModel": 22,
+      "axle": 23,
+      "axleRod": 24,
+      "wheelArray": 25,
+      "axleModel": 26,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.1,
+          0.450000018,
+          -1.398
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountBlueprintVuid": 8,
+      "wheelBlueprintVuid": 9
+    },
+    {
+      "guid": "a57b9148-c567-46a9-a0c4-83c1d501e292",
+      "vuid": 27,
+      "pvuid": 16,
+      "flags": 3,
+      "wheelMount": 28,
+      "mountModel": 29,
+      "axle": 30,
+      "axleRod": 31,
+      "wheelArray": 32,
+      "axleModel": 33,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.1,
+          0.514,
+          1.316
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountBlueprintVuid": 10,
+      "wheelBlueprintVuid": 11
+    },
+    {
+      "guid": "7cbbe780-762f-4dde-98c5-4f2d0c97589c",
+      "vuid": 34,
+      "pvuid": 16,
+      "flags": 3,
+      "wheelMountArray": 35,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.68,
+          -0.900000036
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountArrayBlueprintVuid": 12,
+      "sharedWheelMountBlueprintVuid": 13,
+      "sharedWheelBlueprintVuid": 14
+    },
+    {
+      "guid": "7cbbe780-762f-4dde-98c5-4f2d0c97589c",
+      "vuid": 36,
+      "pvuid": 16,
+      "flags": 3,
+      "wheelMountArray": 37,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.025,
+          -1.47
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountArrayBlueprintVuid": 15,
+      "sharedWheelMountBlueprintVuid": 16,
+      "sharedWheelBlueprintVuid": 17
+    },
+    {
+      "guid": "ef551781-05bc-4aff-902a-372bdf0b3621",
+      "vuid": 38,
+      "pvuid": 252,
+      "flags": 2,
+      "track": 39,
+      "powertrainNode": 40,
+      "belt": 41,
+      "transform": {
+        "mirrorVuid": 16,
+        "pos": [
+          0.73,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "trackBlueprintVuid": 18,
+      "trackInstanceInfo": {
+        "v": "0.2",
+        "leftSide": false,
+        "sprocketMountVuid": 43,
+        "idlerMountVuid": 50,
+        "rollerArrayVuid": 57,
+        "roadwheelArrayVuid": 59
+      },
+      "beltBlueprintVuid": 19
+    },
+    {
+      "guid": "a57b9148-c567-46a9-a0c4-83c1d501e292",
+      "vuid": 42,
+      "pvuid": 38,
+      "flags": 2,
+      "wheelMount": 43,
+      "mountModel": 44,
+      "axle": 45,
+      "axleRod": 46,
+      "wheelArray": 47,
+      "axleModel": 48,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.1,
+          0.450000018,
+          -1.398
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountBlueprintVuid": 8,
+      "wheelBlueprintVuid": 9
+    },
+    {
+      "guid": "a57b9148-c567-46a9-a0c4-83c1d501e292",
+      "vuid": 49,
+      "pvuid": 38,
+      "flags": 2,
+      "wheelMount": 50,
+      "mountModel": 51,
+      "axle": 52,
+      "axleRod": 53,
+      "wheelArray": 54,
+      "axleModel": 55,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.1,
+          0.514,
+          1.316
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountBlueprintVuid": 10,
+      "wheelBlueprintVuid": 11
+    },
+    {
+      "guid": "7cbbe780-762f-4dde-98c5-4f2d0c97589c",
+      "vuid": 56,
+      "pvuid": 38,
+      "flags": 2,
+      "wheelMountArray": 57,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.68,
+          -0.900000036
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountArrayBlueprintVuid": 12,
+      "sharedWheelMountBlueprintVuid": 13,
+      "sharedWheelBlueprintVuid": 14
+    },
+    {
+      "guid": "7cbbe780-762f-4dde-98c5-4f2d0c97589c",
+      "vuid": 58,
+      "pvuid": 38,
+      "flags": 2,
+      "wheelMountArray": 59,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.025,
+          -1.47
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "wheelMountArrayBlueprintVuid": 15,
+      "sharedWheelMountBlueprintVuid": 16,
+      "sharedWheelBlueprintVuid": 17
+    },
+    {
+      "guid": "99281776-6b29-4ffb-9d8b-04139ca7b6a2",
+      "vuid": 265,
+      "pvuid": 0,
+      "flags": 2,
+      "turretRing": 266,
+      "basket": 267,
+      "decoupler": 268,
+      "ringModel": 269,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          1.20000017,
+          -0.4088483
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "ringBlueprintVuid": 33,
+      "structureID": 273,
+      "basketBlueprintVuid": 38
+    },
+    {
+      "guid": "7f8a9d20-eb45-482e-b149-014c964c4e2c",
+      "vuid": 273,
+      "pvuid": 265,
+      "flags": 2,
+      "plateStructure": 274,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.025,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "structureBlueprintVuid": 39
+    },
+    {
+      "guid": "147d4042-4a13-4477-9adf-12e8291481e0",
+      "vuid": 270,
+      "pvuid": 273,
+      "flags": 2,
+      "motor": 271,
+      "motorModel": 272,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0249999519,
+          -0.633126736
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "traverseConstraintsVuid": 36,
+      "motorBlueprintVuid": 37
+    },
+    {
+      "guid": "e5f49f1b-9254-4b50-876b-f0ab9a16f155",
+      "vuid": 275,
+      "pvuid": 273,
+      "flags": 3,
+      "mantlet": 276,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.179779485,
+          0.2578281,
+          0.489685416
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "mantletBlueprint": {
+        "drive_vuid": 278,
+        "trunnions_vuid": 281,
+        "shield_vuid": 283
+      }
+    },
+    {
+      "guid": "0c396ede-f39b-46ac-9d7e-e37c22b2c89e",
+      "vuid": 277,
+      "pvuid": 275,
+      "flags": 2,
+      "layingDrive": 278,
+      "model": 279,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.247274876,
+          -0.200000048,
+          -0.5077853
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "layingDriveBlueprintVuid": 43
+    },
+    {
+      "guid": "e11ce433-c0b3-4e52-899f-898bfe6d3fd3",
+      "vuid": 280,
+      "pvuid": 275,
+      "flags": 2,
+      "trunnions": 281,
+      "model": 282,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "76dcafa2-2aad-4f5c-9502-1d287d034aa1",
+      "vuid": 283,
+      "pvuid": 280,
+      "flags": 2,
+      "model": 284,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
+      "vuid": 285,
+      "pvuid": 283,
+      "flags": 2,
+      "cannon": 286,
+      "breech": 287,
+      "breechModel": 288,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0959563255
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "cannonBlueprintVuid": 45,
+      "cannonInstanceBlueprintVuid": 44
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 289,
+      "pvuid": 285,
+      "flags": 2,
+      "cannonBarrelSegment": 290,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 291,
+      "pvuid": 289,
+      "flags": 2,
+      "cannonBarrelSegment": 292,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.37500003
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
+      "vuid": 297,
+      "pvuid": 273,
+      "flags": 2,
+      "ammoRack": 298,
+      "ammoRackModel": 299,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0103487941,
+          0.0142273661,
+          -0.4111352
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.07300007,
+          0.288000017,
+          0.341000021
+        ]
+      },
+      "ammoRackBlueprintVuid": 47
+    },
+    {
+      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
+      "vuid": 306,
+      "pvuid": 273,
+      "flags": 2,
+      "sight": 307,
+      "model": 308,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.05654286,
+          0.320381969,
+          0.7032998
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "e5f49f1b-9254-4b50-876b-f0ab9a16f155",
+      "vuid": 312,
+      "pvuid": 273,
+      "flags": 2,
+      "mantlet": 313,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.2115025,
+          0.244078487,
+          0.488793731
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "mantletBlueprint": {
+        "drive_vuid": 315,
+        "trunnions_vuid": 318,
+        "shield_vuid": 320
+      }
+    },
+    {
+      "guid": "0c396ede-f39b-46ac-9d7e-e37c22b2c89e",
+      "vuid": 314,
+      "pvuid": 312,
+      "flags": 2,
+      "layingDrive": 315,
+      "model": 316,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.2,
+          -0.2,
+          -0.2
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "layingDriveBlueprintVuid": 57
+    },
+    {
+      "guid": "e11ce433-c0b3-4e52-899f-898bfe6d3fd3",
+      "vuid": 317,
+      "pvuid": 312,
+      "flags": 2,
+      "trunnions": 318,
+      "model": 319,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "76dcafa2-2aad-4f5c-9502-1d287d034aa1",
+      "vuid": 320,
+      "pvuid": 317,
+      "flags": 2,
+      "model": 321,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
+      "vuid": 330,
+      "pvuid": 320,
+      "flags": 2,
+      "cannon": 331,
+      "breech": 332,
+      "breechModel": 333,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.101183414
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "cannonBlueprintVuid": 45,
+      "cannonInstanceBlueprintVuid": 59
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 334,
+      "pvuid": 330,
+      "flags": 2,
+      "cannonBarrelSegment": 335,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 336,
+      "pvuid": 334,
+      "flags": 2,
+      "cannonBarrelSegment": 337,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.37500003
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 309,
+      "pvuid": 273,
+      "flags": 2,
+      "crewSeat": 310,
+      "posture": 311,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.4276131,
+          -0.5788574,
+          -0.09588146
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 54,
+      "postureBlueprintVuid": 56
+    },
+    {
+      "guid": "045a311d-3b15-40cb-88d9-414c7d846b84",
+      "vuid": 614,
+      "pvuid": 273,
+      "flags": 2,
+      "model": 615,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.794021,
+          0.2506158,
+          0.3650012
+        ],
+        "rot": [
+          337.077881,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "045a311d-3b15-40cb-88d9-414c7d846b84",
+      "vuid": 616,
+      "pvuid": 273,
+      "flags": 2,
+      "model": 617,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.720447958,
+          0.424600571,
+          0.391329765
+        ],
+        "rot": [
+          337.077881,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "45331d7f-0baf-46ac-b6dc-8169357dbd15",
+      "vuid": 639,
+      "pvuid": 273,
+      "flags": 2,
+      "hatch": 640,
+      "baseModel": 641,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.0244841538,
+          0.600000143,
+          -0.2713933
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.68359256,
+          1.05486858,
+          1.60352075
+        ]
+      }
+    },
+    {
+      "guid": "845303c3-4da2-42d9-9b05-d8d277c20265",
+      "vuid": 644,
+      "pvuid": 273,
+      "flags": 3,
+      "model": 645,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.0007119177,
+          0.594946742,
+          0.2673821
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "12b6e525-0d07-4b54-b512-8f2ed4602640",
+      "vuid": 663,
+      "pvuid": 273,
+      "flags": 7,
+      "model": 664,
+      "transform": {
+        "mirrorVuid": 665,
+        "pos": [
+          -0.3295392,
+          0.590080142,
+          0.3024177
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "12b6e525-0d07-4b54-b512-8f2ed4602640",
+      "vuid": 665,
+      "pvuid": 273,
+      "flags": 6,
+      "model": 666,
+      "transform": {
+        "mirrorVuid": 663,
+        "pos": [
+          0.3267435,
+          0.590080142,
+          0.3024177
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 700,
+      "pvuid": 273,
+      "flags": 3,
+      "decalScaler": 701,
+      "projectedDecal": 702,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.4140686,
+          0.209549278,
+          0.7575086
+        ],
+        "rot": [
+          26.0634537,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 161,
+      "decalBlueprintVuid": 162
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 709,
+      "pvuid": 273,
+      "flags": 2,
+      "decalScaler": 710,
+      "projectedDecal": 711,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.04866933,
+          0.281149119,
+          -0.6706748
+        ],
+        "rot": [
+          56.6002426,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 167,
+      "decalBlueprintVuid": 168
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 715,
+      "pvuid": 273,
+      "flags": 2,
+      "decalScaler": 716,
+      "projectedDecal": 717,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.647119939,
+          0.298177451,
+          -0.319682121
+        ],
+        "rot": [
+          45.684864,
+          65.00002,
+          7.332679E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 171,
+      "decalBlueprintVuid": 172
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 718,
+      "pvuid": 273,
+      "flags": 2,
+      "decalScaler": 719,
+      "projectedDecal": 720,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.6560258,
+          0.2694809,
+          -0.370130539
+        ],
+        "rot": [
+          45.68476,
+          295.0,
+          -7.332664E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 173,
+      "decalBlueprintVuid": 174
+    },
+    {
+      "guid": "fee1a688-e872-4a9b-8df6-2c79b16d804f",
+      "vuid": 667,
+      "pvuid": 273,
+      "flags": 2,
+      "antenna": 668,
+      "model": 669,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.0507807657,
+          0.3896005,
+          -0.5061979
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.3110199,
+          1.3785491,
+          1.23326218
+        ]
+      }
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 694,
+      "pvuid": 273,
+      "flags": 2,
+      "decalScaler": 695,
+      "projectedDecal": 696,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.7828072,
+          0.277135819,
+          0.267353058
+        ],
+        "rot": [
+          22.9221153,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 157,
+      "decalBlueprintVuid": 158
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 303,
+      "pvuid": 265,
+      "flags": 3,
+      "crewSeat": 304,
+      "posture": 305,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.394198269,
+          -0.489990354,
+          -0.236983776
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 51,
+      "postureBlueprintVuid": 53
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 300,
+      "pvuid": 0,
+      "flags": 2,
+      "crewSeat": 301,
+      "posture": 302,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.6142378,
+          0.0100097656,
+          -0.07697058
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 48,
+      "postureBlueprintVuid": 50
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 340,
+      "pvuid": 0,
+      "flags": 3,
+      "crewSeat": 341,
+      "posture": 342,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.300024033,
+          0.0100097656,
+          -0.6784129
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 63,
+      "postureBlueprintVuid": 67
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 343,
+      "pvuid": 0,
+      "flags": 2,
+      "crewSeat": 344,
+      "posture": 345,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          4.76837158E-06,
+          0.233215392,
+          -0.888744354
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 68,
+      "postureBlueprintVuid": 70
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 445,
+      "pvuid": 0,
+      "flags": 2,
+      "crewSeat": 446,
+      "posture": 447,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.3841076,
+          0.0100097656,
+          0.287994385
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 74,
+      "postureBlueprintVuid": 76
+    },
+    {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 346,
+      "pvuid": 0,
+      "flags": 2,
+      "crewSeat": 347,
+      "posture": 348,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          6.198883E-06,
+          0.0100097656,
+          0.315403938
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          6.43561071E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 71,
+      "postureBlueprintVuid": 73
+    },
+    {
+      "guid": "d38950d4-684d-43c6-a783-0d35103c29b6",
+      "vuid": 604,
+      "pvuid": 0,
+      "flags": 2,
+      "model": 605,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.108731747,
+          0.498870969,
+          -1.44076729
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "045a311d-3b15-40cb-88d9-414c7d846b84",
+      "vuid": 608,
+      "pvuid": 0,
+      "flags": 3,
+      "model": 609,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.21512938,
+          0.9620367,
+          -0.377901554
+        ],
+        "rot": [
+          313.721,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "045a311d-3b15-40cb-88d9-414c7d846b84",
+      "vuid": 610,
+      "pvuid": 0,
+      "flags": 3,
+      "model": 611,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.08662128,
+          1.0849328,
+          -0.373086452
+        ],
+        "rot": [
+          313.721,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "045a311d-3b15-40cb-88d9-414c7d846b84",
+      "vuid": 612,
+      "pvuid": 0,
+      "flags": 3,
+      "model": 613,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.977638245,
+          1.18915427,
+          -0.367474079
+        ],
+        "rot": [
+          313.721,
+          270.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "da8aa46d-9922-4599-84dd-1f7c6eb3214b",
+      "vuid": 624,
+      "pvuid": 0,
+      "flags": 2,
+      "exhaust": 625,
+      "model": 626,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.5978327,
+          1.09473276,
+          -1.67002583
+        ],
+        "rot": [
+          348.332336,
+          279.492981,
+          50.4145546,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
+      "vuid": 627,
+      "pvuid": 0,
+      "flags": 2,
+      "fuelTank": 628,
+      "model": 629,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.517771244,
+          0.0199999213,
+          -0.140659332
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.371428668,
+          0.190225616,
+          0.300775975
+        ]
+      },
+      "fuelTankBlueprintVuid": 151
+    },
+    {
+      "guid": "1c90eddb-6a85-44fb-aecb-14fa57b71f9a",
+      "vuid": 636,
+      "pvuid": 0,
+      "flags": 3,
+      "56598": 637,
+      "56596": 638,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.07858372,
+          1.0919621,
+          -1.08565855
+        ],
+        "rot": [
+          43.7210274,
+          269.999878,
+          -6.85179839E-05,
+          0.0
+        ],
+        "scale": [
+          0.215987816,
+          0.4156742,
+          0.216554478
+        ]
+      }
+    },
+    {
+      "guid": "70a2c0e8-ffc0-448d-a2b5-e2af6ec367d8",
+      "vuid": 649,
+      "pvuid": 0,
+      "flags": 3,
+      "model": 650,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.5222006,
+          0.972195,
+          1.1621089
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "b586f0b7-3e6d-4fcc-9a48-b05c762cf455",
+      "vuid": 651,
+      "pvuid": 0,
+      "flags": 7,
+      "model": 652,
+      "transform": {
+        "mirrorVuid": 653,
+        "pos": [
+          -1.039515,
+          0.9865488,
+          1.12633944
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "b586f0b7-3e6d-4fcc-9a48-b05c762cf455",
+      "vuid": 653,
+      "pvuid": 0,
+      "flags": 6,
+      "model": 654,
+      "transform": {
+        "mirrorVuid": 651,
+        "pos": [
+          1.039515,
+          0.9865488,
+          1.12633944
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "200a4bde-1d7f-4935-a7d6-00292119fada",
+      "vuid": 678,
+      "pvuid": 0,
+      "flags": 2,
+      "model": 679,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          1.15288925,
+          1.021559,
+          -0.8486924
+        ],
+        "rot": [
+          43.7210045,
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "200a4bde-1d7f-4935-a7d6-00292119fada",
+      "vuid": 680,
+      "pvuid": 0,
+      "flags": 2,
+      "model": 681,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          1.14053154,
+          1.03337693,
+          -0.191589832
+        ],
+        "rot": [
+          43.7210045,
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 697,
+      "pvuid": 0,
+      "flags": 2,
+      "decalScaler": 698,
+      "projectedDecal": 699,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.2955265,
+          1.03869367,
+          0.996397
+        ],
+        "rot": [
+          68.13506,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 159,
+      "decalBlueprintVuid": 160
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 706,
+      "pvuid": 0,
+      "flags": 3,
+      "decalScaler": 707,
+      "projectedDecal": 708,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.113924,
+          1.05882144,
+          0.201357365
+        ],
+        "rot": [
+          46.27902,
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 165,
+      "decalBlueprintVuid": 166
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 712,
+      "pvuid": 0,
+      "flags": 3,
+      "decalScaler": 713,
+      "projectedDecal": 714,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.640305042,
+          1.12225986,
+          -1.64804029
+        ],
+        "rot": [
+          38.61332,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 169,
+      "decalBlueprintVuid": 170
+    },
+    {
+      "guid": "24095968-3a0c-4ba8-b191-6486eecc31bb",
+      "vuid": 725,
+      "pvuid": 0,
+      "flags": 6,
+      "fenderModel": 726,
+      "transform": {
+        "mirrorVuid": 727,
+        "pos": [
+          0.779480457,
+          0.9219775,
+          1.15950537
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.17553771,
+          1.53918433,
+          2.12067175
+        ]
+      }
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 741,
+      "pvuid": 725,
+      "flags": 6,
+      "trackBeltSegmentArray": 742,
+      "transform": {
+        "mirrorVuid": 743,
+        "pos": [
+          0.282452583,
+          -0.5486175,
+          0.762839556
+        ],
+        "rot": [
+          79.929924,
+          359.4545,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 177,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 769,
+      "pvuid": 725,
+      "flags": 6,
+      "trackBeltSegmentArray": 770,
+      "transform": {
+        "mirrorVuid": 771,
+        "pos": [
+          0.30410862,
+          -0.06636703,
+          0.262414455
+        ],
+        "rot": [
+          25.6457119,
+          -2.7177528E-05,
+          9.0319836E-13,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 183,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 773,
+      "pvuid": 725,
+      "flags": 6,
+      "trackBeltSegmentArray": 774,
+      "transform": {
+        "mirrorVuid": 775,
+        "pos": [
+          -0.0007157326,
+          -0.473956466,
+          0.6194961
+        ],
+        "rot": [
+          89.77971,
+          270.1079,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 184,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "24095968-3a0c-4ba8-b191-6486eecc31bb",
+      "vuid": 727,
+      "pvuid": 0,
+      "flags": 5,
+      "fenderModel": 728,
+      "transform": {
+        "mirrorVuid": 725,
+        "pos": [
+          -0.779480457,
+          0.9219775,
+          1.15948534
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.17553771,
+          1.53918433,
+          2.12067175
+        ]
+      }
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 743,
+      "pvuid": 727,
+      "flags": 7,
+      "trackBeltSegmentArray": 744,
+      "transform": {
+        "mirrorVuid": 741,
+        "pos": [
+          -0.282452583,
+          -0.5486175,
+          0.762839556
+        ],
+        "rot": [
+          79.929924,
+          0.5454934,
+          1.52588171E-07,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 177,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 771,
+      "pvuid": 727,
+      "flags": 7,
+      "trackBeltSegmentArray": 772,
+      "transform": {
+        "mirrorVuid": 769,
+        "pos": [
+          -0.30410862,
+          -0.06636703,
+          0.262414455
+        ],
+        "rot": [
+          25.6457119,
+          2.7177528E-05,
+          -9.0319836E-13,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 183,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 775,
+      "pvuid": 727,
+      "flags": 7,
+      "trackBeltSegmentArray": 776,
+      "transform": {
+        "mirrorVuid": 773,
+        "pos": [
+          0.0007157326,
+          -0.473956466,
+          0.6194961
+        ],
+        "rot": [
+          89.77971,
+          89.89208,
+          -0.000444117177,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 184,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "9d7980e5-80a8-4344-8e6d-a4c49504f145",
+      "vuid": 733,
+      "pvuid": 0,
+      "flags": 6,
+      "model": 734,
+      "transform": {
+        "mirrorVuid": 735,
+        "pos": [
+          0.869644165,
+          0.452556252,
+          -0.09387255
+        ],
+        "rot": [
+          0.0,
+          90.00003,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.537854,
+          1.49990749,
+          0.9999999
+        ]
+      }
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 745,
+      "pvuid": 733,
+      "flags": 6,
+      "trackBeltSegmentArray": 746,
+      "transform": {
+        "mirrorVuid": 747,
+        "pos": [
+          -0.12353307,
+          -0.137024164,
+          0.5186171
+        ],
+        "rot": [
+          3.41509462E-06,
+          90.0000153,
+          90.0000153,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 178,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 761,
+      "pvuid": 733,
+      "flags": 6,
+      "trackBeltSegmentArray": 762,
+      "transform": {
+        "mirrorVuid": 763,
+        "pos": [
+          -0.09009391,
+          0.355538726,
+          0.5186166
+        ],
+        "rot": [
+          3.41509462E-06,
+          90.0000153,
+          90.0000153,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 182,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "9d7980e5-80a8-4344-8e6d-a4c49504f145",
+      "vuid": 735,
+      "pvuid": 0,
+      "flags": 7,
+      "model": 736,
+      "transform": {
+        "mirrorVuid": 733,
+        "pos": [
+          -0.869644165,
+          0.452555537,
+          -0.0938735
+        ],
+        "rot": [
+          0.0,
+          269.999969,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.537854,
+          1.49990749,
+          0.9999999
+        ]
+      }
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 747,
+      "pvuid": 735,
+      "flags": 7,
+      "trackBeltSegmentArray": 748,
+      "transform": {
+        "mirrorVuid": 745,
+        "pos": [
+          0.12353307,
+          -0.137024164,
+          0.5186171
+        ],
+        "rot": [
+          0.0,
+          270.0,
+          270.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 178,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "3c589b94-9a52-43a6-9efa-8994fa4c2c3b",
+      "vuid": 763,
+      "pvuid": 735,
+      "flags": 7,
+      "trackBeltSegmentArray": 764,
+      "transform": {
+        "mirrorVuid": 761,
+        "pos": [
+          0.09009391,
+          0.355538726,
+          0.5186166
+        ],
+        "rot": [
+          0.0,
+          270.0,
+          270.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 182,
+      "beltBlueprintID": 19
+    },
+    {
+      "guid": "24095968-3a0c-4ba8-b191-6486eecc31bb",
+      "vuid": 737,
+      "pvuid": 0,
+      "flags": 5,
+      "fenderModel": 738,
+      "transform": {
+        "mirrorVuid": 739,
+        "pos": [
+          0.7084446,
+          0.9303094,
+          -1.36200047
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.29867685,
+          1.48848045,
+          1.91945374
+        ]
+      }
+    },
+    {
+      "guid": "24095968-3a0c-4ba8-b191-6486eecc31bb",
+      "vuid": 739,
+      "pvuid": 0,
+      "flags": 4,
+      "fenderModel": 740,
+      "transform": {
+        "mirrorVuid": 737,
+        "pos": [
+          -0.7084446,
+          0.9303094,
+          -1.36200047
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.29867685,
+          1.48848045,
+          1.91945374
+        ]
+      }
+    },
+    {
+      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
+      "vuid": 229,
+      "pvuid": 0,
+      "flags": 2,
+      "fuelTank": 230,
+      "model": 231,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.5358949,
+          0.02000004,
+          -0.58499
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.340432882,
+          0.1954352,
+          0.28836593
+        ]
+      },
+      "fuelTankBlueprintVuid": 29
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 688,
+      "pvuid": 0,
+      "flags": 2,
+      "decalScaler": 689,
+      "projectedDecal": 690,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.466984749,
+          1.12165618,
+          0.7896552
+        ],
+        "rot": [
+          68.13505,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 155,
+      "decalBlueprintVuid": 156
+    }
+  ],
+  "meshes": [
+    {
+      "vuid": 0,
+      "type": "plateStructureMesh",
+      "meshData": {
+        "v": "0.2",
+        "name": null,
+        "smoothAngle": 0,
+        "gridSize": 1,
+        "format": "VSH",
+        "generationBlueprintVuid": 5,
+        "rivets": {
+          "profiles": [
+            {
+              "model": 0,
+              "spacing": 0.1,
+              "diameter": 0.05,
+              "height": 0.025,
+              "padding": 0.04
+            }
+          ],
+          "nodes": []
+        }
+      }
+    },
+    {
+      "vuid": 1,
+      "type": "plateStructureMesh",
+      "meshData": {
+        "v": "0.2",
+        "name": null,
+        "smoothAngle": 0,
+        "gridSize": 1,
+        "format": "TST",
+        "generationBlueprintVuid": 41,
+        "rivets": {
+          "profiles": [
+            {
+              "model": 0,
+              "spacing": 0.1,
+              "diameter": 0.05,
+              "height": 0.025,
+              "padding": 0.04
+            }
+          ],
+          "nodes": []
+        }
+      }
+    }
+  ]
+}
