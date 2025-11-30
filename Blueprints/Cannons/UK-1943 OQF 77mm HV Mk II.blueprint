@@ -1,0 +1,39 @@
+{
+  "v": "1.9",
+  "name": "UK-1943 OQF 77mm HV Mk II",
+  "description": "",
+  "caliber": 76,
+  "breechLength": 420,
+  "muzzle": "d42ff655-1ccf-41f9-b39e-cbe567e48450",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 60,
+          "t1": 25,
+          "l": 400
+        },
+        {
+          "t0": 20,
+          "t1": 15,
+          "l": 2950
+        },
+        {
+          "t0": 50,
+          "t1": 50,
+          "l": 20
+        },
+        {
+          "t0": 30,
+          "t1": 30,
+          "l": 180
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 2000,
+  "PSI": 35000,
+  "shellID": 32
+}

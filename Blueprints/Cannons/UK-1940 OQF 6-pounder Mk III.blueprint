@@ -1,0 +1,29 @@
+{
+  "v": "1.9",
+  "name": "UK-1940 OQF 6-pounder Mk III",
+  "description": "",
+  "caliber": 57,
+  "breechLength": 441,
+  "muzzle": "",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 25,
+          "t1": 10,
+          "l": 1800
+        },
+        {
+          "t0": 20,
+          "t1": 20,
+          "l": 130
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 2000,
+  "PSI": 35000,
+  "shellID": 32
+}

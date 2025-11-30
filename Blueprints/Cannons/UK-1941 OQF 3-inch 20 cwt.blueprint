@@ -1,0 +1,24 @@
+{
+  "v": "1.9",
+  "name": "UK-1941 OQF 3-inch 20 cwt",
+  "description": "",
+  "caliber": 76,
+  "breechLength": 420,
+  "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 50,
+          "t1": 15,
+          "l": 2800
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 2000,
+  "PSI": 35000,
+  "shellID": 32
+}
