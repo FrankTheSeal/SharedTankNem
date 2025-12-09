@@ -1,0 +1,29 @@
+{
+  "v": "1.9",
+  "name": "DE-1941 2.8 cm sPzB 41",
+  "description": "",
+  "caliber": 28,
+  "breechLength": 187,
+  "muzzle": "d42ff655-1ccf-41f9-b39e-cbe567e48450",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 15,
+          "t1": 5,
+          "l": 200
+        },
+        {
+          "t0": 5,
+          "t1": 5,
+          "l": 1130
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 2000,
+  "PSI": 35000,
+  "shellID": 43
+}
