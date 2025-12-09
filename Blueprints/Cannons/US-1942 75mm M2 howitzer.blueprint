@@ -1,0 +1,24 @@
+{
+  "v": "1.9",
+  "name": "US-1942 75mm M2 howitzer",
+  "description": "",
+  "caliber": 75,
+  "breechLength": 272,
+  "muzzle": "",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 35,
+          "t1": 5,
+          "l": 720
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 1900,
+  "PSI": 40000,
+  "shellID": 43
+}

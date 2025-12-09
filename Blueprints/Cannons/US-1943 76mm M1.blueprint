@@ -1,0 +1,24 @@
+{
+  "v": "1.9",
+  "name": "US-1943 76mm M1",
+  "description": "",
+  "caliber": 76,
+  "breechLength": 539,
+  "muzzle": "5ad7ad81-4de0-4861-b1c2-5dddd2d98783",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 25,
+          "t1": 15,
+          "l": 3190
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 1900,
+  "PSI": 40000,
+  "shellID": 43
+}

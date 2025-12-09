@@ -1,0 +1,34 @@
+{
+  "v": "1.9",
+  "name": "US-1945 105mm T5E1",
+  "description": "",
+  "caliber": 105,
+  "breechLength": 720,
+  "muzzle": "d42ff655-1ccf-41f9-b39e-cbe567e48450",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 100,
+          "t1": 35,
+          "l": 300
+        },
+        {
+          "t0": 35,
+          "t1": 15,
+          "l": 5480
+        },
+        {
+          "t0": 40,
+          "t1": 40,
+          "l": 10
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 1800,
+  "PSI": 45000,
+  "shellID": 43
+}

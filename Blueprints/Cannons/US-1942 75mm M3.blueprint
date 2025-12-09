@@ -1,0 +1,29 @@
+{
+  "v": "1.9",
+  "name": "US-1942 75mm M3",
+  "description": "",
+  "caliber": 75,
+  "breechLength": 350,
+  "muzzle": "",
+  "segments": [
+    {
+      "v": "0.0",
+      "segments": [
+        {
+          "t0": 30,
+          "t1": 30,
+          "l": 300
+        },
+        {
+          "t0": 30,
+          "t1": 15,
+          "l": 2120
+        }
+      ]
+    }
+  ],
+  "muzzleMass": 0.0,
+  "K": 1900,
+  "PSI": 40000,
+  "shellID": 43
+}
